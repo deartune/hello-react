@@ -5,8 +5,8 @@ import './Movie.css';
 class Movie extends Component{
 
     static propTypes ={
-        title:React.propTypes.string,
-        poster:React.PropTypes.string
+        title:propTypes.string,
+        poster:PropTypes.string
       }
 
 
